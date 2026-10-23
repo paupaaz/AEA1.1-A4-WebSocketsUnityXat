@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="background-color: rgb(238, 173, 167);">
+        <ui:Label text="Enviar mensajes al servidor"/>
+        <ui:TextField name="campoMensaje" label="Mensaje" value="Hola desde Unity!" style="background-color: rgb(217, 119, 119);"/>
+        <ui:Button name="botonEnviar" text="Enviar mensaje" style="background-color: rgb(217, 119, 119);"/>
+        <ui:ScrollView name="historialChat"/>
+        <ui:Label name="resultado" text="Esperando mensaje..."/>
+    </ui:VisualElement>
+</ui:UXML>
